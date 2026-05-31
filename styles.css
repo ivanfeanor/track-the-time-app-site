@@ -318,6 +318,9 @@ a { -webkit-tap-highlight-color: transparent; }
 .feature--flip .feature-shot { order: 1; justify-content: flex-start; }
 .feature:not(.feature--flip) .feature-shot { justify-content: flex-end; }
 .feature--wide .feature-card { max-width: 560px; }
+/* Tall shot (charts): cap height and crop the lower issue list from the bottom,
+   so the section stays in rhythm with the others. */
+.feature--crop .feature-card img { max-height: 480px; object-fit: cover; object-position: top; }
 
 /* --------------------------------------------------------- CTA / download - */
 .cta { background: #1c1f1d; margin-top: 60px; }
