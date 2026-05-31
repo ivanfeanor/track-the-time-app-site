@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Track — menu-bar time tracking for Jira &amp; Tempo</title>
+  <meta name="description" content="Track lives in your menu bar, quietly logging every task you touch — then pushes the whole week to Jira & Tempo in one click. Free for macOS, Windows & Linux." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%238AC942'/%3E%3Ccircle cx='50' cy='50' r='25' fill='none' stroke='%23fff' stroke-width='5.5'/%3E%3Cpath d='M50 35v16l11 7' fill='none' stroke='%23fff' stroke-width='5.5' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =========================== NAV =========================== -->
+  <header class="nav">
+    <div class="nav-inner wrap">
+      <a href="#top" class="wordmark" aria-label="Track home">
+        <span class="mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 21a9 9 0 100-18 9 9 0 000 18z M12 7v5l3 2" />
+          </svg>
+        </span>
+        <span class="name">Track</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#download" class="nav-link">Download</a>
+        <a href="https://www.buymeacoffee.com/k4nfbfhn7to" target="_blank" rel="noreferrer" class="nav-link">Buy me a coffee</a>
+        <a href="#download" class="nav-link nav-cta">Get Track</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- =========================== HERO (menu bar) =========================== -->
+    <section class="hero">
+      <div class="hero-card wrap">
+        <!-- mac menu bar mock -->
+        <div class="menubar">
+          <div class="menubar-l">
+            <span class="mb-apple"></span>
+            <span class="mb-app">Track</span>
+            <span class="mb-menu">File</span>
+            <span class="mb-menu">View</span>
+          </div>
+          <div class="menubar-r">
+            <span class="tray">
+              <span class="pulse"></span>
+              <span class="time" data-tray-clock>1:24:30</span>
+              <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+            </span>
+            <span class="mb-clock">Thu 13:42</span>
+          </div>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Menu-bar time tracker</p>
+            <h1 class="h1">Your hours, tracked while you actually work.</h1>
+            <p class="lead">Track lives in your menu&nbsp;bar, quietly logging every task you touch — then
+              pushes the whole week to Jira &amp; Tempo in one click.</p>
+
+            <div class="hero-ctas">
+              <a href="#download" class="dlbtn dlbtn--primary">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 16v3a2 2 0 002 2h12a2 2 0 002-2v-3 M12 3v12 M7 10l5 5 5-5" />
+                </svg>
+                <span class="lbl"><span class="sub">It's free</span><span class="main">Download Track</span></span>
+              </a>
+              <a href="#features" class="dlbtn dlbtn--ghost">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M3 3v18h18 M8 17v-5 M13 17V8 M18 17v-9" />
+                </svg>
+                <span class="lbl"><span class="main">See how it works</span></span>
+              </a>
+            </div>
+
+            <p class="platform-note">
+              <span class="free"><span class="dot"></span>Free</span>
+              <span class="sep">·</span>
+              <span>macOS, Windows &amp; Linux</span>
+              <span class="sep">·</span>
+              <span>no account needed</span>
+            </p>
+          </div>
+
+          <div class="hero-art">
+            <svg class="hero-connector" viewBox="0 0 200 90" aria-hidden="true">
+              <path d="M188 6 C150 6 60 10 30 64" fill="none" stroke="rgba(0,0,0,.4)" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 7" />
+              <path d="M30 64 l9 -6 M30 64 l1 -11" fill="none" stroke="rgba(0,0,0,.4)" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <img class="hero-shot" src="assets/shots/stopwatch-light.png" alt="Track menu-bar Stopwatch panel showing a running timer" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================== FEATURES =========================== -->
+    <section class="features" id="features">
+      <div class="features-head wrap">
+        <p class="eyebrow">Everything, nothing extra</p>
+        <h2 class="h2">Five things Track does well</h2>
+      </div>
+
+      <div class="features-list wrap">
+        <!-- 1 — stopwatch -->
+        <article class="feature">
+          <div class="feature-text">
+            <p class="eyebrow">Lives in your menu bar</p>
+            <h2 class="h2">Start the clock without breaking flow</h2>
+            <p class="lead">Click in, pick a Jira issue or just type a label, and the timer runs while you work.
+              No window to babysit, no context-switch — the running task ticks away right in the menu bar.</p>
+            <ul class="feature-points">
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>One click to clock in</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Pick an issue or free-type</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Pause, resume, switch instantly</li>
+            </ul>
+          </div>
+          <div class="feature-shot">
+            <div class="feature-card">
+              <img src="assets/shots/stopwatch-light.png" alt="Track Stopwatch panel" />
+            </div>
+          </div>
+        </article>
+
+        <!-- 2 — sync (flipped, wide) -->
+        <article class="feature feature--flip feature--wide">
+          <div class="feature-text">
+            <p class="eyebrow">Jira &amp; Tempo</p>
+            <h2 class="h2">Push a whole week in one click</h2>
+            <p class="lead">Review your worklogs, see what's already synced, and send the rest straight to matching
+              Jira issues or Tempo. Working offline? Export an Excel workbook and move on.</p>
+            <ul class="feature-points">
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Maps time to the right issues</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Tempo worklogs supported</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Excel export when offline</li>
+            </ul>
+          </div>
+          <div class="feature-shot">
+            <div class="feature-card">
+              <img src="assets/shots/sync-light.png" alt="Track sync panel pushing worklogs to Jira and Tempo" />
+            </div>
+          </div>
+        </article>
+
+        <!-- 3 — focus -->
+        <article class="feature">
+          <div class="feature-text">
+            <p class="eyebrow">Targets &amp; focus</p>
+            <h2 class="h2">Know when you've done your hours</h2>
+            <p class="lead">Set a daily target and Track shows the progress ring filling as the day goes.
+              A light focus-session tally keeps long stretches honest — no forced breaks, no nagging.</p>
+            <ul class="feature-points">
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Daily work-hour target</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Focus-session tally</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Calm, never naggy</li>
+            </ul>
+          </div>
+          <div class="feature-shot">
+            <div class="feature-card">
+              <img src="assets/shots/focus-light.png" alt="Track focus panel with a daily target progress ring" />
+            </div>
+          </div>
+        </article>
+
+        <!-- 4 — timeline (flipped) -->
+        <article class="feature feature--flip">
+          <div class="feature-text">
+            <p class="eyebrow">Local-first</p>
+            <h2 class="h2">Track all week, sync when you're ready</h2>
+            <p class="lead">Everything is stored on your machine as you go. Your day rebuilds into a clean timeline
+              and weekly charts, so you can review exactly where the hours went before anything leaves your laptop.</p>
+            <ul class="feature-points">
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Your data stays local</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Timeline + weekly charts</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Review before you sync</li>
+            </ul>
+          </div>
+          <div class="feature-shot">
+            <div class="feature-card">
+              <img src="assets/shots/timeline-light.png" alt="Track timeline panel showing the day's tracked activities" />
+            </div>
+          </div>
+        </article>
+
+        <!-- 5 — charts -->
+        <article class="feature">
+          <div class="feature-text">
+            <p class="eyebrow">Activity &amp; Tempo</p>
+            <h2 class="h2">See where the week actually went</h2>
+            <p class="lead">Track rolls your time into hours-per-day against your target and a by-issue breakdown —
+              the same numbers you push to Tempo, so your reports and your worklogs never disagree.</p>
+            <ul class="feature-points">
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Hours per day vs. target</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>By-issue breakdown</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span>Matches your Tempo worklogs</li>
+            </ul>
+          </div>
+          <div class="feature-shot">
+            <div class="feature-card">
+              <img src="assets/shots/charts-light.png" alt="Track Activity &amp; Tempo charts — hours per day and a by-issue breakdown" />
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================== CTA / DOWNLOAD =========================== -->
+    <section class="cta" id="download">
+      <div class="cta-inner wrap">
+        <span class="cta-badge">
+          <svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 21a9 9 0 100-18 9 9 0 000 18z M12 7v5l3 2" />
+          </svg>
+        </span>
+        <h2>Get Track</h2>
+        <p class="cta-sub">Download it free for your platform. No account, no sign-up — it runs entirely on your machine.</p>
+
+        <div class="cta-platforms">
+          <a href="https://github.com/ivanfeanor/track-the-time-app-site/releases/latest/download/Track-macOS.dmg" class="plat">
+            <span class="plat-ic">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v10H4z M2 19h20 M9 19l.5-2h5l.5 2" /></svg>
+            </span>
+            <span class="plat-tx"><span class="plat-name">macOS</span><span class="plat-note">Universal · 11+</span></span>
+          </a>
+          <a href="https://github.com/ivanfeanor/track-the-time-app-site/releases/latest/download/Track-Windows-Setup.exe" class="plat">
+            <span class="plat-ic">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18v16H3z M3 9h18 M6.5 6.5h.01 M9 6.5h.01" /></svg>
+            </span>
+            <span class="plat-tx"><span class="plat-name">Windows</span><span class="plat-note">10 &amp; 11</span></span>
+          </a>
+          <a href="https://github.com/ivanfeanor/track-the-time-app-site/releases/latest/download/Track-Linux.AppImage" class="plat">
+            <span class="plat-ic">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a4 4 0 014 4v6a4 4 0 01-1.4 3l1.9 4H7.5l1.9-4A4 4 0 018 13V7a4 4 0 014-4z M10 8h.01 M14 8h.01 M12 11l-1.2 1.2h2.4z" /></svg>
+            </span>
+            <span class="plat-tx"><span class="plat-name">Linux</span><span class="plat-note">.AppImage · .deb</span></span>
+          </a>
+        </div>
+
+        <div class="coffee">
+          <p>Track is built and maintained by one person. If it saves you time, you can keep it caffeinated.</p>
+          <a href="https://www.buymeacoffee.com/k4nfbfhn7to" target="_blank" rel="noreferrer">
+            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================== FOOTER =========================== -->
+  <footer class="footer">
+    <div class="footer-inner wrap">
+      <span class="wordmark">
+        <span class="mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 21a9 9 0 100-18 9 9 0 000 18z M12 7v5l3 2" />
+          </svg>
+        </span>
+        <span class="name">Track</span>
+      </span>
+      <span class="footer-tag">Time tracking for people who forget to track time.</span>
+      <div class="footer-links">
+        <a href="https://www.buymeacoffee.com/k4nfbfhn7to" target="_blank" rel="noreferrer">Buy me a coffee</a>
+        <a href="https://github.com/ivanfeanor/track-the-time-app-site/releases" target="_blank" rel="noreferrer">Releases</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="track.js"></script>
+</body>
+</html>

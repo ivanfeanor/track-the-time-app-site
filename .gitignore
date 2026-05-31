@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.claude/
+
+# Logs / env (none used today, but keep them out if ever added)
+*.log
+.env
+.env.*
